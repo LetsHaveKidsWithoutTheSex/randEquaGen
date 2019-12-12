@@ -1,0 +1,31 @@
+using System;
+
+
+class randEquaGen
+{
+    
+
+    static void Main(String[] args)
+    {
+        //this is blank space lol 
+    }
+
+     public int randNumGen(int min, int max)
+    {  
+        Random random = new Random();
+        return random.Next(1, 100);
+
+    }
+
+    static void prinRandGenResult()
+    {   
+        int Y = Random;
+        int X = Random;
+        int z = Y - X;
+
+        Console.WriteLine(X + " - " Y + " = " + Z);
+        Console.ReadLine();
+        return;
+    }
+}
+    
