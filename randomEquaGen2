@@ -1,0 +1,18 @@
+using System;
+
+
+class randEquaGen
+{
+    
+
+    static void Main(String[] args)
+    {
+        int y;
+        int x;
+        int z = y - x;
+
+        var answer = x.Next(1, 100) + " - " y.Next(1, 100) + " = " + z;
+        return Console.WriteLine(answer);
+    }
+}
+    
