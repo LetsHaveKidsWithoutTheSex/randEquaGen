@@ -1,0 +1,23 @@
+using System;
+
+public class randEquaGenMaster
+{
+    public static void Main(String[] args)
+    {	
+		while (true)
+		    {
+        //variables
+        Random randNum = new Random();
+        int x = randNum.Next(1, 100);
+        int y = randNum.Next(1, 100);
+        int z = x - y;
+        //interface
+        Console.WriteLine("Welcome to EquaGen!");
+        Console.WriteLine("Press ENTER to continue or ESC to stop");
+        Console.ReadLine();
+        Console.WriteLine("{0} - {1} = {2}", x, y, z);
+        Console.ReadLine();
+        Console.Clear();
+        }
+    }
+}
