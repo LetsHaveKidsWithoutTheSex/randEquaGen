@@ -8,12 +8,12 @@
 	{ "keys": ["alt+ctrl+k"], "command": "move", "args": {"by": "pages", "forward": true}},
 
 	// move beginnig/end of line
-	{ "keys": ["alt+u"], "command": "move_to", "args": {"to": "bol", "forward": true}},
-	{ "keys": ["alt+o"], "command": "move_to", "args": {"to": "eol", "forward": false}},
+	{ "keys": ["alt+h"], "command": "move_to", "args": {"to": "bol", "forward": true}},
+	{ "keys": ["alt+;"], "command": "move_to", "args": {"to": "eol", "forward": false}},
 
 	// move with words
-	{ "keys": ["alt+ctrl+l"], "command": "move", "args": {"by": "words", "forward": true}},
-	{ "keys": ["alt+ctrl+j"], "command": "move", "args": {"by": "words", "forward": false}},
+	{ "keys": ["alt+o"], "command": "move", "args": {"by": "words", "forward": true}},
+	{ "keys": ["alt+u"], "command": "move", "args": {"by": "words", "forward": false}},
 
 	// move and select
 	{ "keys": ["alt+shift+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true}},
@@ -24,8 +24,8 @@
 	{ "keys": ["alt+ctrl+shift+k"], "command": "move", "args": {"by": "pages", "forward": true, "extend": true}},
 
 	// move beginning/end of line and select
-	{ "keys": ["alt+shift+u"], "command": "move_to", "args": {"to": "bol", "forward": true, "extend": true}},
-	{ "keys": ["alt+shift+o"], "command": "move_to", "args": {"to": "eol", "forward": false, "extend": true}},
+	{ "keys": ["alt+shift+o"], "command": "move_to", "args": {"to": "bol", "forward": true, "extend": true}},
+	{ "keys": ["alt+shift+u"], "command": "move_to", "args": {"to": "eol", "forward": false, "extend": true}},
 
 	// move and select words
 	{ "keys": ["alt+ctrl+shift+l"], "command": "move", "args": {"by": "words", "forward": true, "extend":true}},
